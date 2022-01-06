@@ -3,7 +3,7 @@ import config
 import torch.nn as nn
 from torchvision import models
 import torch.nn.functional as F
-from utils import *
+from net_utils import inconv, down, up, outconv, ConvLSTM
 import operator
 from config import args_setting
 
